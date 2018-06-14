@@ -1,6 +1,6 @@
 {
-  "name": "@dashevo/dashd-rpc",
-  "description": "Dash Client Library to connect to Dash Core via RPC",
+  "name": "geekcash-rpc",
+  "description": "Javascript Client Library to connect to GeekCash via RPC",
   "version": "1.0.1",
   "author": {
     "name": "Stephen Pair",
@@ -29,12 +29,12 @@
     }
   ],
   "keywords": [
-    "dash",
+    "GeekCash",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcoind-rpc-dash"
+    "url": "https://github.com/geekcash/geekcash-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -43,7 +43,7 @@
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
   },
   "dependencies": {
-    "async": "^1.3.0",
+    "async": "^2.6.1",
     "bluebird": "^3.5.1"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/dashevo/bitcoind-rpc-dash/issues"
+    "url": "https://github.com/geekcash/geekcash-rpc/issues"
   },
-  "homepage": "https://github.com/dashevo/bitcoind-rpc-dash"
+  "homepage": "https://github.com/geekcash/geekcash-rpc"
 }
