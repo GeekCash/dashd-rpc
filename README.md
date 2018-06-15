@@ -8,7 +8,7 @@ A client library to connect to Dash Core RPC in JavaScript.
 geekcash-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install geekcash-rpc
+npm install @geekcash/geekcash-rpc
 ```
 
 ## RpcClient
@@ -80,7 +80,7 @@ var run = function() {
 
 You can dynamically access to the help of each method by doing
 ```
-const RpcClient = require('bitcoind-rpc-dash');
+const RpcClient = require('geekcash-rpc');
 var client = new RPCclient({
     protocol:'http',
     user: 'dash',
