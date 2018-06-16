@@ -19,14 +19,14 @@ Arguments :
 	- user : (string - optional) - (default: 'user') - Set the user credential.
 	- pass : (string - optional) - (default: 'pass') - Set the password credential.
 	- host : (string - optional) - (default: '127.0.0.1') - The host you want to connect with.
-	- port : (integer - optional) - (default: 9998) - Set the port on which perform the RPC command.
+	- port : (integer - optional) - (default: 6888) - Set the port on which perform the RPC command.
 	
 ## Examples
 
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('geekcash-rpc');
+  var RpcClient = require('@geekcash/geekcash-rpc');
 
   var config = {
     protocol: 'http',
@@ -80,13 +80,13 @@ var run = function() {
 
 You can dynamically access to the help of each method by doing
 ```
-const RpcClient = require('geekcash-rpc');
+const RpcClient = require('@geekcash/geekcash-rpc');
 var client = new RPCclient({
     protocol:'http',
-    user: 'dash',
-    pass: 'local321', 
+    user: 'root',
+    pass: 'password', 
     host: '127.0.0.1', 
-    port: 19998
+    port: 6888
 });
 
 var cb = function (err, data) {
